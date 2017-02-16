@@ -1,3 +1,8 @@
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
 #.bash_local is intended for machine-specific code
 if [ -f ~/.bash_local ]; then 
   . ~/.bash_local; 

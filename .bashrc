@@ -3,6 +3,8 @@ if [ -f ~/.bash_local ]; then
   . ~/.bash_local; 
 fi 
 
+set editing-mode vi
+
 alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 alias ll="ls -lha"

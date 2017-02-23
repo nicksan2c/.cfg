@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/joshuaarnold/Documents/Jobs/ACCRE_AppDev/bigdata-vandy/spark-xml-parse'
+let g:netrw_dirhist_2='/Users/joshuaarnold/Documents/Jobs/ACCRE_AppDev/accre/Python'
+let g:netrw_dirhist_3='/Users/joshuaarnold/.ssh'
+let g:netrw_dirhist_4='/Users/joshuaarnold/Documents/Jobs/ACCRE_AppDev/bigdata-vandy/cm_csds/ECHO/src'
+let g:netrw_dirhist_5='/Users/joshuaarnold/Documents/Jobs/ACCRE_AppDev/bigdata-vandy/cm_csds/ECHO/src/images'
+let g:netrw_dirhist_6='/Users/joshuaarnold/MyApps/ScrapyTutorial/ScrapyTutorial/spiders'
+let g:netrw_dirhist_7='/Users/joshuaarnold/Documents/Jobs/ACCRE_AppDev/bigdata-vandy/cm_csds/ECHO'
+let g:netrw_dirhist_8='/Users/joshuaarnold/.vim'
+let g:netrw_dirhist_9='/Users/joshuaarnold/.ssh'

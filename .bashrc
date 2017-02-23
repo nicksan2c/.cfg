@@ -8,7 +8,8 @@ if [ -f ~/.bash_local ]; then
   . ~/.bash_local; 
 fi 
 
-set editing-mode vi
+#set editing-mode vi
+set editing-mode emacs
 
 alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 

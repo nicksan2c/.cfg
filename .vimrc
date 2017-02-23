@@ -10,7 +10,8 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax on
-    
+   
+"autocmd BufNewFile,BufRead *.sdl set ft=javascript
      
 "------------------------------------------------------------
 " Must have options {{{1

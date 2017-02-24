@@ -9,8 +9,16 @@ if [ -f ~/.bash_local ]; then
 fi 
 
 set -o vi
+bind -m vi-insert "\C-l":clear-screen
+bind -m vi-command "\C-l":clear-screen
 
+# To install config files to new system
+# git clone --bare <git-repo-url> $HOME/.cfg
+# Then
 alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+# Finally
+# config checkout
+
 
 alias ll="ls -lha"
 alias speedtest="wget --output-document=/dev/null \
@@ -25,4 +33,3 @@ export LESS_TERMCAP_me=$'\E[0m'
 export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[04;38;5;111m'
-

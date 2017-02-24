@@ -13,6 +13,10 @@ syntax on
    
 let g:vim_json_syntax_conceal = 0
 
+"autocmd BufNewFile,BufRead *.sdl set ft=javascript
+
+autocmd BufNewFile,BufRead .bash_local set ft=sh
+     
 "------------------------------------------------------------
 " Must have options {{{1
 "

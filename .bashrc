@@ -8,7 +8,7 @@ if [ -f ~/.bash_local ]; then
   . ~/.bash_local; 
 fi 
 
-set -o vim
+set -o vi
 
 # To install config files to new system
 # git clone --bare <git-repo-url> $HOME/.cfg
@@ -31,4 +31,3 @@ export LESS_TERMCAP_me=$'\E[0m'
 export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[04;38;5;111m'
-

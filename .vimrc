@@ -12,6 +12,8 @@ filetype indent plugin on
 syntax on
    
 "autocmd BufNewFile,BufRead *.sdl set ft=javascript
+
+autocmd BufNewFile,BufRead .bash_local set ft=sh
      
 "------------------------------------------------------------
 " Must have options {{{1

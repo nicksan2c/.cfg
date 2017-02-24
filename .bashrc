@@ -9,6 +9,8 @@ if [ -f ~/.bash_local ]; then
 fi 
 
 set -o vi
+bind -m vi-insert "\C-l":clear-screen
+bind -m vi-command "\C-l":clear-screen
 
 # To install config files to new system
 # git clone --bare <git-repo-url> $HOME/.cfg

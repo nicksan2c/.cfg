@@ -8,7 +8,7 @@ if [ -f ~/.bash_local ]; then
   . ~/.bash_local; 
 fi 
 
-set -o vim
+set -o vi
 
 alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # To install to new system

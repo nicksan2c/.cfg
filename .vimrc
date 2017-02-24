@@ -11,8 +11,8 @@ filetype indent plugin on
 " Enable syntax highlighting
 syntax on
    
-"autocmd BufNewFile,BufRead *.sdl set ft=javascript
-     
+let g:vim_json_syntax_conceal = 0
+
 "------------------------------------------------------------
 " Must have options {{{1
 "

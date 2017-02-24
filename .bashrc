@@ -10,9 +10,13 @@ fi
 
 set -o vim
 
-alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-# To install to new system
+# To install config files to new system
 # git clone --bare <git-repo-url> $HOME/.cfg
+# Then
+alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+# Finally
+# config checkout
+
 
 alias ll="ls -lha"
 alias speedtest="wget --output-document=/dev/null \

@@ -33,3 +33,22 @@ export LESS_TERMCAP_me=$'\E[0m'
 export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[04;38;5;111m'
+
+function ppath() {
+    old=$IFS
+    IFS=:
+    printf "%s\n" $PATH
+    IFS=$old
+}
+
+export -f ppath
+
+function pldpath() {
+    old=$IFS
+    IFS=:
+    printf "%s\n" $LD_LIBRARY_PATH
+    IFS=$old
+}
+
+export -f pldpath
+

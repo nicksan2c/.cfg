@@ -15,7 +15,7 @@ bind -m vi-command "\C-l":clear-screen
 # To install config files to new system
 # git clone --bare https://github.com/arnold-jr/.cfg.git $HOME/.cfg
 alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-# Finally
+# config config --local status.showUntrackedFiles no
 # config checkout
 
 

@@ -13,8 +13,7 @@ bind -m vi-insert "\C-l":clear-screen
 bind -m vi-command "\C-l":clear-screen
 
 # To install config files to new system
-# git clone --bare <git-repo-url> $HOME/.cfg
-# Then
+# git clone --bare https://github.com/arnold-jr/.cfg.git $HOME/.cfg
 alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # Finally
 # config checkout

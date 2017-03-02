@@ -10,11 +10,14 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax on
-   
+
+" Disable quote hiding in JSON
 let g:vim_json_syntax_conceal = 0
 
-"autocmd BufNewFile,BufRead *.sdl set ft=javascript
+" Use system clipboard
+set clipboard=unnamedplus
 
+" Define syntax highlighting for custom bash file
 autocmd BufNewFile,BufRead .bash_local set ft=sh
      
 "------------------------------------------------------------

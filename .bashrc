@@ -50,5 +50,3 @@ function pldpath() {
 }
 
 export -f pldpath
-
-setpkgs -a spark_2.1.0
